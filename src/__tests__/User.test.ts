@@ -10,16 +10,18 @@ beforeAll(async () =>{
 });
 it("Should be able  to create a new user", async () =>{
     const response = await request(app).post("/users").send({
-        email:"user3@example.com",
-        name:"User3 Example",
+        email:"userr@example.com",
+        name:"Userr Example",
     });
     expect(response.status).toBe(201); 
 });
         it("Should not  be able to crate a user with exists email", async () =>{
             const response = await request(app).post("/users").send({
-                email:"user3@example.com",
-                name:"User3 Example",
+                email:"userr@example.com",
+                name:"Userr Example",
             });
             expect(response.status).toBe(400);
         })
+
+       
     });
