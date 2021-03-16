@@ -23,7 +23,7 @@ class UserController{
             name, email
         })
         await useraRepository.save(user);
-        return response.send(user);
+        return response.status(201).json(user);
     }
 }
 export { UserController };
