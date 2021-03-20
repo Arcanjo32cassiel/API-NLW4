@@ -25,7 +25,7 @@ class SurveyUser {
 
 
     @Column()
-    value: string;
+    value: number;
 
     @CreateDateColumn()
     created_at: Date;
