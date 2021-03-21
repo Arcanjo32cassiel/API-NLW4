@@ -92,8 +92,29 @@ npm run test
 ## Algumas imagens 
 
 
-<div align='center' display="flex">
-<img src='./.github/sendmailsurvey.png' width='500'>
-<img src='./.github/resultjsonsurvey.png' width='500'>
-<img src='./.github/calc.png' width='500'>
+<div display='flex' align='center' >
+  <div background-color=' red'>
+      <img src='./.github/sendmailsurvey.png' width='500'>
+
+```bash  
+      Imagem do email  de pesquisa enviado ao usuário.
+```
+
+  </div>
+  <div background-color=' red'>
+      <img src='./.github/resultjsonsurvey.png' width='500'>
+
+```bash  
+      Imagem do json do resultado da pesquisa.
+```
+
+  </div>
+  <div background-color=' red'>
+      <img src='./.github/calc.png' width='500'>
+
+```bash  
+      Imagem do json do resultado do cáculo de todas as pesquisas.
+```
+
+  </div>
 </div>
